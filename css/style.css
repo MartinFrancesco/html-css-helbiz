@@ -70,6 +70,14 @@ h1 {
   margin: 50px 20px;
 }
 
+.products .text-box a {
+  color: blue;
+}
+
+.products .text-box a:hover {
+  color: red;
+}
+
 /* SECTION THREE */
 .how-works {
   height: 400px;
@@ -137,6 +145,12 @@ h1 {
   }
 
   /* Section Two */
+  .text-box {
+    width: 100%;
+    margin: 20px 0;
+    line-height: 40px;
+  }
+
   .go, .bike {
     height: 660px;
     padding: 20px;
@@ -146,7 +160,6 @@ h1 {
 
   .go>img, .bike>img {
     height: 400px;
-    margin-top: 180px;
   }
 
   /* Section Three */
